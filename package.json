@@ -1,0 +1,29 @@
+{
+    "name": "gith",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "prettier": {
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "arrowParens": "avoid",
+        "tabWidth": 2,
+        "semi": true,
+        "singleQuote": true
+    },
+    "scripts": {
+        "start": "parcel ./index.html"
+    },
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "styled-components": "^5.2.0",
+        "typescript": "^4.0.3"
+    },
+    "devDependencies": {
+        "@types/react": "^16.9.49",
+        "@types/react-dom": "^16.9.8",
+        "@types/styled-components": "^5.1.3",
+        "parcel-bundler": "^1.12.4"
+    }
+}
